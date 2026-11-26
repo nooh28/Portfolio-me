@@ -4,87 +4,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mohamed Osama is a front-end web developer creating custom, problem-solving websites with clean design. Contact me to start your project.">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="script.js" defer></script>
     <title>Portfolio</title>
 </head>
 
 <body>
+
     <header>
 
+
         <nav>
-            <div class="logo">
-                <img src="avatars\logo-1-img.jpg" alt="M.O Logo" class="logo-img">
-                <h1 class="logo-name">M.O</h1>
+            <div class="container">
+                <div class="logo">
+                    <img src="avatars/logo-1-img.jpg" alt="M.O Logo" class="logo-img">
+                    <span class="logo-name">M.O</span>
+                </div>
+                <div class="nav-2nd-part">
+                    <ul>
+                        <li><a href="#hero-id">Home</a></li>
+                        <li><a href="#about-id">About</a></li>
+                        <li><a href="#skills-id">Skills</a></li>
+                        <li><a href="#project-id">Projects</a></li>
+                        <li><a href="#contact-id">Contact</a></li>
+                    </ul>
+                    <button class="talk">Let’s Talk →</button>
+                </div>
             </div>
-            <div class="nav-2nd-part">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <button class="talk">Lets Talk →</button>
-            </div>
-
         </nav>
-    </header>
-    <!--  Explore my work ↗  -->
-    <!--  hero section  -->
 
-    <section class="hero-section">
+
+
+
+
+    </header>
+    <main>
+ <!--  hero section  -->
+
+    <section class="hero-section" id="hero-id">
         <div class="left-hero">
             <h4>HELLO, I’M Mohamed Osama</h4>
-            <h2>Thoughtful code<br> Meaningful<br> experiences.</h2>
-            <p>A frontend developer turning ideas into clean, 
-               <br> responsive websites — with a little personality.</p>
+            <h1>Thoughtful code. Meaningful experiences.</h1>
+            <p>A frontend developer turning ideas into clean,
+                responsive websites — with a little personality.
+            </p>
             <div class="hero-buttons">
-                <button id="explore-btn" >Explore my work ↗</button>
-                <button id="get-in-touch-btn">Get in touch</button>
+                <a href="#project-id" id="explore-btn">Explore my work ↗</a>
+                <a href="#contact-id" id="get-in-touch-btn">Get in touch</a>
             </div>
-            <p>WEB DEVELOPMENT  /  CREATIVE THINKING</p>
+            <p>WEB DEVELOPMENT / CREATIVE THINKING</p>
         </div>
         <div class="right-hero">
             <img src="avatars/hero-img.jpg" alt="wavey-img" class="hero-img">
             <p>01 / INTRODUCTION</p>
         </div>
-        
+
     </section>
-    <section class="about-section">
-        <div class="about-left">
-            <h3>02 / ABOUT ME</h3>
-            <h2>A curious mind.
-            <br> builder at heart.</h2>
-            <p>I enjoy connecting thoughtful design with practical code.
-                <br>My focus is creating websites that feel simple, work<br>
-                beautifully, and make every interaction count.
-            </p>
-            <p>From the first sketch to the final detail, I care about<br>
-                the small things that make a big difference.
-            </p>
-            <div class="about-subs">
-                <div>
-                    <h3>01</h3>
-                    <h4>Understand the idea</h4>
+    <div class="about-section-div" id="about-id">
+        <section class="about-section">
+            <div class="about-left">
+                <h3>02 / ABOUT ME</h3>
+                <h2>A curious mind.
+                    builder at heart.
+                </h2>
+                <p>I enjoy connecting thoughtful design with practical code.
+                    My focus is creating websites that feel simple, work
+                    beautifully, and make every interaction count.
+                </p>
+                <p>From the first sketch to the final detail, I care about
+                    the small things that make a big difference.
+                </p>
+                <div class="about-subs">
+                    <div>
+                        <h3>01</h3>
+                        <h4>Understand the idea</h4>
+                    </div>
+                    <div>
+                        <h3>02</h3>
+                        <h4>Build with intention</h4>
+                    </div>
+                    <div>
+                        <h3>03</h3>
+                        <h4>Refine the details</h4>
+                    </div>
+
                 </div>
-                   <div>
-                    <h3>02</h3>
-                    <h4>Build with intention</h4>
+            </div>
+            <div class="about-right">
+                <img src="avatars/about-img.jpg" alt="about-image">
+            </div>
+        </section>
+    </div>
+    <section class="skills-section" id="skills-id">
+        <div class="skills-left">
+            <h4>03 / MY TOOLKIT</h4>
+            <h2>The tools behind the experience.</h2>
+            <p>A modern frontend toolkit, grounded in the fundamentals.
+                Always learning, experimenting, and finding better ways
+                to bring an idea to life.</p>
+            <!--the description of the skills -->
+            <div class="skills-dec">
+                <h4>01</h4>
+                <div class="skills-dec2">
+                    <h5>THE FOUNDATION</h5>
+                    <h3>HTML5 · CSS3 · JavaScript</h3>
                 </div>
-                   <div>
-                    <h3>03</h3>
-                    <h4>Refine the details</h4>
+            </div>
+            <div class="skills-dec">
+                <h4>02</h4>
+                <div class="skills-dec2">
+                    <h5>THE INTERFACE</h5>
+                    <h3>React · Responsive design</h3>
+                </div>
+            </div>
+            <div class="skills-dec">
+                <h4>03</h4>
+                <div class="skills-dec2">
+                    <h5>THE WORKFLOW</h5>
+                    <h3>Git · GitHub · Figma</h3>
+                </div>
+            </div>
+        </div>
+        <div class="skills-right">
+            <img src="avatars/skill-img.jpg" alt="skills-img">
+        </div>
+
+    </section>
+    <div class="project-section-div" id="project-id">
+        <section class="projects-section">
+            <div class="projects-left">
+                <h3>04 / SELECTED WORK</h3>
+                <h2>Ideas made real.One detail at a time.</h2>
+                <p>A space for things I’m building, exploring, and refining.Clean interfaces. Responsive layouts.
+                    Purposeful details.</p>
+                <div class="project-num">
+                    <h5>FEATURED / PERSONAL WEBSITE</h5>
+                    <h4>My corner of the web</h4>
+                    <p>A warm, responsive portfolio with a personal touch.</p>
+                    <p>HTML / CSS / JAVASCRIPT</p>
+                </div>
+                <p>More experiments, more learning. More to come.</p>
+            </div>
+            <div class="projects-right">
+                <img src="avatars/projects-img.jpg" alt="working-in-my-labtop">
+            </div>
+
+        </section>
+    </div>
+    <section class="contact-section" id="contact-id">
+        <div class="contact-left">
+            <h3>05 / GET IN TOUCH</h3>
+            <h2>Have an idea? Let’s build it.</h2>
+            <p>A new project, an interesting collaboration, or just a hello.
+                I’d love to hear what you have in mind and explore
+                what we could create together.</p>
+            <a href="" class="say-hello-btn">Say hello ↗</a>
+            <div class="links-for-me">
+                <h4>FIND ME ELSEWHERE</h4>
+                <div class="my-links">
+                    <a href="#">GitHub ↗</a>
+                    <a href="#"> LinkedIn ↗</a>
+                    <a href="#"> Email ↗</a>
+
                 </div>
 
             </div>
+
         </div>
-        <div class="about-right">
-            <img src="avatars/about-img.jpg" alt="about-image">
+
+        <div class="contact-right">
+            <img src="avatars/contact-img.jpg" alt="me-holdin-laptop">
         </div>
+
+
+
     </section>
+    <footer>
+        <div class="footer-div">
+            <img src="avatars/logo-2-img.jpg" alt="me-coding">
+            <p class="footer-tagline">Thoughtfully designed. Carefully built.</p>
+            <a href="#hero-id">BACK TO TOP ↑</a>
+        </div>
 
+    </footer>
 
+    </main>
+   
 </body>
 
 </html>
